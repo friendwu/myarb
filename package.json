@@ -1,0 +1,29 @@
+{
+  "name": "myarb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/arb.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/delay": "^3.1.0",
+    "@types/qs": "^6.9.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/smart-order-router": "^3.20.0",
+    "ccxt": "^4.1.100",
+    "coingecko-api-v3": "^0.0.29",
+    "delay": "^6.0.0",
+    "dotenv": "^16.3.1",
+    "qs": "^6.11.2",
+    "telegraf": "^4.15.3"
+  }
+}
